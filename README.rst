@@ -30,12 +30,22 @@ This should generate following Kinds of notices:
 Example notice: 
 ***************************
 ::
+1) ICMP::AddressMaskScan - An address mask request message reveals the subnet mask used by the 
+			   target host. This information is useful when mapping networks and 
+			   identifying the size of subnets and network spaces used by organizations.
 
-	1) ICMP::AddressMaskScan - An address mask request message reveals the subnet mask used by the target host. This information is useful when mapping networks and identifying the size of subnets and network spaces used by organizations.
-	2) ICMP::ICMPAddressScan - Primarily flags ICMP echo-request/replies also known as ping scanning. 
-	3) ICMP::InfoRequestScan - The ICMP information request message was intended to support self-configuring systems such as diskless workstations at boot time, to allow them to discover their network address. Protocols such as RARP, BOOTP, or DHCP do so more robustly, so type 15 messages are rarely used.
-	4) ICMP::TimestampScan - A timestamp request message requests system time information from the target host. The response is in a decimal format and is the number of milliseconds elapsed since midnight GMT. 
-	5) ICMP::ScanSummary - general summaries of ICMP scan. How many hosts over how much time. 
+2) ICMP::ICMPAddressScan - Primarily flags ICMP echo-request/replies also known as ping scanning. 
+
+3) ICMP::InfoRequestScan - The ICMP information request message was intended to support self-configuring 
+			   systems such as diskless workstations at boot time, to allow them to discover 
+			   their network address. Protocols such as RARP, BOOTP, or DHCP do so more 
+			   robustly, so type 15 messages are rarely used.
+
+4) ICMP::TimestampScan - A timestamp request message requests system time information from the target 
+			 host. The response is in a decimal format and is the number of milliseconds 
+			 elapsed since midnight GMT. 
+
+5) ICMP::ScanSummary - general summaries of ICMP scan. How many hosts over how much time. 
 
 
-	Ref: http://etutorials.org/Networking/network+security+assessment/Chapter+4.+IP+Network+Scanning/4.1+ICMP+Probing/ 
+Ref: http://etutorials.org/Networking/network+security+assessment/Chapter+4.+IP+Network+Scanning/4.1+ICMP+Probing/ 
