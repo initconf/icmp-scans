@@ -1,0 +1,6 @@
+[package]
+description=icmp-scans 
+script_dir = scripts
+version = 2.0 
+tags = ftp, bruteforce, scan 
+test_command = ( cd tests && btest -d )
