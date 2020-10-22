@@ -38,3 +38,4 @@ Example notice:
 	5) ICMP::ScanSummary - general summaries of ICMP scan. How many hosts over how much time. 
 
 
+	Ref: http://etutorials.org/Networking/network+security+assessment/Chapter+4.+IP+Network+Scanning/4.1+ICMP+Probing/ 
