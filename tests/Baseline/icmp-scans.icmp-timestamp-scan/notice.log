@@ -3,9 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	notice
-#open	2020-10-22-22-50-49
+#open	2020-10-22-23-28-45
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
 #types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	string	string	string	double	double
 1430948645.623985	-	-	-	-	-	-	-	-	-	ICMP::ICMPAddressScan	46.171.93.66 has icmp echo scanned 25 hosts	-	46.171.93.66	-	-	25	-	Notice::ACTION_LOG	3600.000000	-	-	-	-	-
-1431033207.322622	-	-	-	-	-	-	-	-	-	ICMP::ScanSummary	46.171.93.66 scanned a total of 396 hosts	-	46.171.93.66	-	-	396	-	Notice::ACTION_LOG	3600.000000	-	-	-	-	-
-#close	2020-10-22-22-50-50
+#close	2020-10-22-23-28-45

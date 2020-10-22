@@ -29,7 +29,8 @@ This should generate following Kinds of notices:
 
 Example notice: 
 ***************************
-:
+::
+
 1) ICMP::AddressMaskScan - An address mask request message reveals the subnet mask used by the 
 			   target host. This information is useful when mapping networks and 
 			   identifying the size of subnets and network spaces used by organizations.
